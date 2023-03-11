@@ -1,19 +1,7 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from "react";
 
 export default function HelloWorld(props) {
-  const {
-    greetee = 'World'
-  } = props
+  const { greetee } = props;
 
-  return (
-    <div>Hello, {greetee}!</div>
-  )
-}
-
-// See more about PropType validation here:
-// https://reactjs.org/docs/typechecking-with-proptypes.html
-
-HelloWorld.propTypes = {
-  greetee: PropTypes.string
+  return <div>Hello, {greetee}!</div>;
 }

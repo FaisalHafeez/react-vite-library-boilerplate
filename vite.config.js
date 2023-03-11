@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/lib/index.jsx'),
       name: 'React Library Vite',
-      fileName: (format) => `react-library-vite.${format}.js`
+      fileName: (format) => `vite-library.${format}.js`
     },
     rollupOptions: {
       // externalize deps that shouldn't be bundled
