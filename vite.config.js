@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/lib/index.jsx'),
-      name: 'React Library Vite',
+      name: 'vite-library',
       fileName: (format) => `vite-library.${format}.js`
     },
     rollupOptions: {

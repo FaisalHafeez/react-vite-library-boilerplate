@@ -1,12 +1,12 @@
 {
   "name": "vite-library",
   "version": "0.0.0",
-  "description": "A scaffold app for building a React component/library using Vite, ready for publication to npm",
-  "author": "FH",
+  "description": "A scaffold app for building a React component/library using Vite,via external html file",
+  "author": "FaisalHafeez",
   "keywords": [],
   "files": [
     "dist",
-    "README.md"
+    "src/lib/index.jsx"
   ],
   "main": "./dist/vite-library.umd.js",
   "module": "./dist/vite-library.es.js",
